@@ -1,0 +1,333 @@
+/* -------------GENERAL--------- */
+html,
+.App {
+  background-color: #f3f2ee;
+  overflow-x: clip;
+}
+h5 {
+  margin-bottom: 0px;
+}
+p {
+  color: #3b3b3b;
+}
+
+.plus {
+  width: 30px;
+  height: 30px;
+  fill: #666666;
+  cursor: pointer;
+}
+.cursor {
+  cursor: pointer;
+}
+
+/* --------PROFILE---------- */
+.bgProfile {
+  object-fit: cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.photoProfile {
+  border-radius: 70px;
+  border: 3px solid white;
+  position: absolute;
+  left: 25px;
+  top: 45%;
+  width: 130px;
+  height: 130px;
+}
+.icon {
+  width: 37px;
+  height: 37px;
+}
+.myform {
+  width: 200px;
+}
+.iconSpace,
+.mercado-match {
+  margin-inline: 25px;
+  color: #666666;
+  font-size: small;
+  margin-bottom: 0;
+}
+.netNav {
+  border-left: solid 1px #666666;
+}
+
+.inputNav {
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #eff3f8;
+}
+.user:hover {
+  cursor: pointer;
+}
+
+.bord:hover {
+  border-bottom: solid 2px black;
+}
+.mercado-match:hover {
+  color: black;
+  fill: rgb(31, 17, 17);
+  cursor: pointer;
+}
+
+.eyes {
+  fill: #666666;
+  margin-right: 5px;
+}
+
+.resized-avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.allContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Verify {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sizeIconEx {
+  width: 62px;
+  height: 62px;
+}
+.colorGray {
+  color: rgb(114, 113, 113);
+  font-size: 14px;
+}
+.links {
+  color: #0966c2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #0a5ed7;
+  text-decoration: underline;
+}
+
+.profileContainer {
+  border: 1px solid rgb(206, 199, 199);
+  /* bg aggiunto da Mariline */
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.barGray:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+.outlineButtons {
+  padding: 5px;
+  border: 1.5px solid #0966c2;
+  color: #0966c2;
+  font-weight: bold;
+  background-color: white;
+  transition: ease-in-out 0.1s;
+}
+
+.outlineButtons:hover {
+  background-color: #daeaff;
+  border: 2px solid #0a5ed7;
+  color: #0a5ed7;
+  transition: ease-in-out 0.1s;
+}
+
+.photoBgIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.outlineButtonsProfile {
+  text-align: center;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 50px;
+  color: #0966c2;
+  font-weight: bold;
+  background-color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.outlineButtonsProfile:hover {
+  background-color: white;
+  border: 1px solid #0a5ed7;
+  color: #0a5ed7;
+  transition: ease-in-out 0.1s;
+}
+
+.outlineButtonsProfileGrey {
+  border: 0px;
+  background-color: white;
+  color: #6c757d;
+}
+
+.outlineButtonsProfileGrey:hover {
+  background-color: #d4d4d4;
+  color: #6c757d;
+}
+
+/* ------------------------------ */
+
+.asideJob {
+  font-size: 13px;
+}
+
+.asideImg {
+  width: 60px;
+  height: 60px;
+}
+/* ----------LISTA AMICI-------- */
+
+/* ------OTHERS PROFILE---- */
+
+.photoProfileOthers {
+  border-radius: 70px;
+  border: 3px solid white;
+  position: absolute;
+  left: 25px;
+  top: 60%;
+  width: 130px;
+  height: 130px;
+}
+
+/* ----------------JOBS-------------- */
+
+.subText {
+  font-size: 14px;
+}
+
+.fontBold {
+  -webkit-text-stroke: 1px;
+}
+
+.borderPx {
+  border: 3px solid grey;
+}
+
+.roundedPx {
+  border: 15px;
+}
+
+.JobsEndButton {
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.JobsEndButton:hover {
+  background-color: #d1d2d4;
+  transition: ease-in-out 0.2s;
+}
+
+.noBorder:last-child {
+  border: 0px solid;
+}
+/*----------- HOME ------*/
+.font-home-destra {
+  font-size: 0.7rem;
+}
+.fotoProfiloHome {
+  border-radius: 70px;
+  border: 3px solid white;
+  position: absolute;
+  margin-inline: 33.3%;
+  top: 10%;
+  width: 120px;
+  height: 120px;
+}
+
+.espandi-rete:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+/* ---------JobsDetails-------- */
+
+.JobDetails {
+  height: 81dvh;
+  overflow-y: scroll;
+  overflow-x: clip;
+}
+
+/* .JobsDetailsContainer {
+  position: fixed;
+  top: 80px;
+  left: 10%;
+} */
+
+.bg-Link {
+  background-color: #0a5ed7;
+}
+
+.JobsDetailsTopLeftRound {
+  border-top-left-radius: 10px;
+}
+
+.borderJobsDetails {
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+
+.Link-default {
+  text-decoration: none;
+}
+
+.Link-default:hover {
+  text-decoration: underline;
+}
+
+.bg-light-green {
+  background-color: #daebd1;
+  border-radius: 5px;
+}
+
+.jobDetailsContainer {
+  height: 91dvh;
+  overflow-y: scroll;
+  overflow-x: clip;
+}
+
+.JobsDetails {
+}
+
+.jobSelected {
+  border-left: 15px solid green;
+}
+
+.mail-home-profile {
+  font-size: 1rem;
+}
+
+.commenti-home:hover {
+  background-color: lightgrey;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.altri-post {
+  color: #0966c2;
+  border: solid 2px #0966c2;
+  background-color: #f3f2ee;
+  padding: 5px;
+}
+
+/* ------------HOMe POST----- */
+
+.postImage {
+  width: 50px;
+}
+
+.altri-post:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}
